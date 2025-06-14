@@ -1,84 +1,126 @@
 
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AMINE JM .COM</title>
-  <style>
-    body {
-      font-family: 'Tahoma', sans-serif;
-      background-color: #111;
-      color: #eee;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1db954;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    nav {
-      background-color: #222;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px;
-    }
-    nav a {
-      color: #1db954;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    main {
-      padding: 20px;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    footer {
-      background-color: #1a1a1a;
-      text-align: center;
-      padding: 10px;
-      font-size: 0.9em;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMINE JM .COM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1e272e, #2f3542);
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px 20px 20px;
+            background-color: #2ed573;
+            color: #222;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            background-color: #1e90ff;
+            padding: 15px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2em;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffd32a;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section {
+            background: #3742fa;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #ffd32a;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            background-color: #2f3542;
+            border-top: 1px solid #444;
+        }
+    </style>
 </head>
 <body>
-  <header>
+
+<header>
     <h1>AMINE JM .COM</h1>
-    <p>Mar7ba bik f site dyali 👋</p>
-  </header>
-  <nav>
-    <a href="#kora">Kora</a>
+    <p>👋 Welcome to my personal website</p>
+</header>
+
+<nav>
+    <a href="#football">Football</a>
     <a href="#music">Music</a>
-    <a href="#fun">D7k</a>
-    <a href="#contact">Twasol</a>
-  </nav>
-  <main>
-    <section id="kora">
-      <h2>⚽ Kora</h2>
-      <p>Nhdro 3la matchs, players, l'akhbar, w ta9iym dyal lbatalat 🏆</p>
-    </section>
-    <section id="music">
-      <h2>🎵 Music</h2>
-      <p>Music li kat3jbni, playlists, rap maghribi w spotify dyali 🎧</p>
-    </section>
-    <section id="fun">
-      <h2>😂 D7k</h2>
-      <p>Memes, nokat, w videos zwina bash t9ta3 routine 😎</p>
-    </section>
-    <section id="contact">
-      <h2>📬 Tawasel m3aya</h2>
-      <p>Facebook: <a href="https://facebook.com" target="_blank">fb.com/aminejm</a></p>
-    </section>
-  </main>
-  <footer>
-    © 2025 AMINE JM. Jami3 l7o9ou9 ma7fou9a.
-  </footer>
+    <a href="#fun">Fun</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="section" id="football">
+        <h2>⚽ Football</h2>
+        <p>We talk about matches, players, news, ratings, and championships analysis 🏆</p>
+    </div>
+
+    <div class="section" id="music">
+        <h2>🎵 Music</h2>
+        <p>Music I enjoy, playlists, Moroccan rap and my Spotify selection 🎧</p>
+    </div>
+
+    <div class="section" id="fun">
+        <h2>😂 Fun</h2>
+        <p>Memes, jokes, and cool videos to break the routine 😎</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>📞 Contact Me</h2>
+        <p>Facebook: <a href="https://fb.com/aminejm" target="_blank" style="color:#ffd32a;">fb.com/aminejm</a></p>
+    </div>
+</div>
+
+<footer>
+    AMINE JM. All rights reserved © 2025
+</footer>
+
 </body>
 </html>
